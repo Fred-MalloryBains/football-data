@@ -1,6 +1,9 @@
 import json
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 
 from webdriver_manager.chrome import ChromeDriverManager
@@ -9,6 +12,7 @@ options = webdriver.ChromeOptions()
 options.set_capability(
     'goog:loggingPrefs', {"performance": "ALL", "browser": "ALL"}
 )
+options.add_argument("--disable-blink-features=AutomationControlled")
 
 # Use this for newer Selenium versions
 driver = webdriver.Chrome(options=options)
@@ -21,13 +25,14 @@ try:
 except:
     print ("error")
 
-
+time.sleep(5)
 driver.execute_script("window.scroll(0, document.body.scrollHeight);")
-time.sleep(30)
+time.sleep(5)
 
 
 logs_raw = driver.get_log("performance")
 logs = [json.loads(lr['message'])['message'] for lr in logs_raw]
+
 for x in logs: 
     if 'shotmap' in x['params'].get('headers', {}).get(':path',''):
         print(x['params'].get('headers', {}).get(':path',''))
