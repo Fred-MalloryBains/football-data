@@ -118,6 +118,6 @@ else:
 data = get_data(url, driver, "shotmap")
 if data:
     print("✅ Successfully fetched data!")
-    for i in data:
-        print(i['player']['name'])
+    for i in data['shotmap']:
+        print(i)
 driver.quit()
