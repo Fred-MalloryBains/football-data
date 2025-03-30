@@ -2,7 +2,6 @@ https://www.sofascore.com/football/match/brentford-liverpool/Usab#id:12436440
 https://www.sofascore.com/football/match/liverpool-nottingham-forest/osU#id:12436526
 https://www.sofascore.com/football/match/nottingham-forest-wolverhampton/dso#id:12436926
 https://www.sofascore.com/football/match/aston-villa-tottenham-hotspur/IP#id:12437059
-https://www.sofascore.com/football/match/fulham-aston-villa/PsT#id:12437028
 https://www.sofascore.com/football/match/arsenal-manchester-united/KR#id:12437005
 https://www.sofascore.com/football/match/tottenham-hotspur-leicester-city/MXpf#id:12436907
 https://www.sofascore.com/football/match/fulham-manchester-city/rsT#id:12437022
@@ -126,7 +125,6 @@ https://www.sofascore.com/football/match/brentford-crystal-palace/hsab#id:124368
 https://www.sofascore.com/football/match/everton-crystal-palace/hY#id:12436992
 https://www.sofascore.com/football/match/brentford-nottingham-forest/osab#id:12436463
 https://www.sofascore.com/football/match/chelsea-crystal-palace/hN#id:12436910
-https://www.sofascore.com/football/match/everton-liverpool/UsY#id:12436452
 https://www.sofascore.com/football/match/brentford-manchester-united/Ksab#id:12437034
 https://www.sofascore.com/football/match/liverpool-wolverhampton/dsU#id:12436945
 https://www.sofascore.com/football/match/brentford-crystal-palace/hsab#id:12436897
@@ -288,3 +286,4 @@ https://www.sofascore.com/football/match/everton-manchester-city/rY#id:12436481
 https://www.sofascore.com/football/match/nottingham-forest-crystal-palace/hso#id:12437036
 https://www.sofascore.com/football/match/southampton-tottenham-hotspur/IV#id:12436458
 https://www.sofascore.com/football/match/arsenal-west-ham-united/MR#id:12436914
+https://www.sofascore.com/football/match/fulham-aston-villa/PsT#id:12437028 
